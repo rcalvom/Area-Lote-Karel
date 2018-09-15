@@ -1,0 +1,31 @@
+K de Karel
+# first street, first avenue, num streets, num avenues showing 
+0 0 15 15
+# intersection size (in pixels) 
+38
+# things
+   becker.robots.Thing 2 1
+
+# wall
+   becker.robots.Wall 2 2 Direction.NORTH
+   becker.robots.Wall 2 3 Direction.NORTH
+   becker.robots.Wall 2 4 Direction.NORTH
+   becker.robots.Wall 2 5 Direction.NORTH
+
+   becker.robots.Wall 5 2 Direction.SOUTH
+   becker.robots.Wall 5 3 Direction.SOUTH
+   becker.robots.Wall 5 4 Direction.SOUTH
+   becker.robots.Wall 5 5 Direction.SOUTH
+
+   becker.robots.Wall 2 5 Direction.EAST
+   becker.robots.Wall 3 5 Direction.EAST
+   becker.robots.Wall 4 5 Direction.EAST
+   becker.robots.Wall 5 5 Direction.EAST
+
+   becker.robots.Wall 2 2 Direction.WEST
+   becker.robots.Wall 3 2 Direction.WEST
+   becker.robots.Wall 4 2 Direction.WEST
+   becker.robots.Wall 5 2 Direction.WEST
+
+
+
