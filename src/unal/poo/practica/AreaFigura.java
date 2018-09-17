@@ -4,7 +4,12 @@ import becker.robots.Robot;
 
 /**
  * Esta Clase contiene todas las funciones necesarias para hallar el área de una figura irregular
+ * @since 15/09/2018
  * @author Ricardo Andrés Calvo
+ * @author Julio Andrés Rodríguez
+ * @author Jorge Aurelio Morales
+ * @author Jhon Sebastián Rojas
+ * @author Julio Enrique Aguilera
  */
 public class AreaFigura{    
     private static final int X=17; //Tamaño vertical de la ciudad de karel
@@ -12,7 +17,7 @@ public class AreaFigura{
     
     /**
      * Devuelve el Área del lote cerrado en la ciudad de Karel
-     * @param estudiante 
+     * @param estudiante Robot
      * @return Área de una figura irregular cerrada en el rango x a y
      */
     public static int AreaLote(Robot estudiante){

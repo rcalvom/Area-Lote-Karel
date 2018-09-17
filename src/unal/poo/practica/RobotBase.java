@@ -6,6 +6,10 @@ import becker.robots.*;
  * Clase que inicializa el robot y la ciudad con atributos dados
  * @since 15/09/2018
  * @author Ricardo Andrés Calvo
+ * @author Julio Andrés Rodríguez
+ * @author Jorge Aurelio Morales
+ * @author Jhon Sebastián Rojas
+ * @author Julio Enrique Aguilera
  */
 public class RobotBase{
         
